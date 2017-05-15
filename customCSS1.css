@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {  margin:0;
+        padding:0;
+        text-overflow: hidden;
+    background-color: aliceblue;
+}
+
+h1, h2  {color: ##494949 !important;
+    text-shadow: 5px 5px 5px #DF7576;
+    font-family: 'Pacifico', cursive;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #494949;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgba(204,204,204,1.00);
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+
+.topnav a:hover {
+  background-color: rgba(158,158,158,1.00);
+  color: rgba(0,9,46,1.00);
+}
+
+.topnav a.active {
+    background-color:#5CB85C;
+    color: #494949;
+}   
+
+.fancypink{
+	font-size:24px;
+	color: #DF7576; 
+	font-family: 'Pacifico', cursive;
+	
+}
+
+
+.fancyerpink{
+	font-size:64px;
+	color: #cf0f60; 
+    text-shadow: 5px 5px 5px #DF7576;
+	font-family: 'Pacifico', cursive;
+	
+} 
+
+.well{
+    background-color:ghostwhite !important;
+    
+}
