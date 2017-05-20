@@ -24,8 +24,9 @@ require 'bootstrapheader.php';
         <div class="fancyerpink text-center"> Addison made this website.</div>
             <p class="fancypink text-center"> Coffee on the brain</p>
     </div>
-            <img class="img-responsive center-block" src="img/Addison coffee brain.png" alt="Addison coffee brain"  width="1050" height="550">
-
+        
+            <img class="img-responsive center-block botttom-images" src="img/Addison coffee brain.png" alt="Addison coffee brain"  width="600" height="50">
+          
     </div>
 
 <script>

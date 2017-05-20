@@ -58,3 +58,10 @@ h1, h2  {color: ##494949 !important;
     background-color:ghostwhite !important;
     
 }
+
+.botttom-images {
+    margin: auto;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
