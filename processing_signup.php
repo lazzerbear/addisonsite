@@ -19,7 +19,7 @@ function test_input($data) {
 
 ?>
 
-<?php
+    <?php
 
 $email2 = $email;
 $psw2 = "\n".$psw;

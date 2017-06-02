@@ -19,7 +19,7 @@ function test_input($data) {
 
 ?>
 
-<?php
+    <?php
 
 /*gotta secure.....
 

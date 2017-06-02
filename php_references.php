@@ -9,13 +9,17 @@ require 'bootstrapheader.php';
 </head>
 
 <body>
- 
-    <?php require 'top_navigation_bar.php'; ?>
- <div class="container">  
-        <h1 class="text-center jumbotron">php reference page<p class="text-center fancypink">Comming soon.</p></h1><hr>
-         
 
-    <?php echo $content_links; ?>
- </div>  
+    <?php require 'top_navigation_bar.php'; ?>
+    <div class="container">
+        <h1 class="text-center jumbotron">php reference page
+            <p class="text-center fancypink">Comming soon.</p>
+        </h1>
+        <hr>
+
+
+        <?php echo $content_links; ?>
+    </div>
 </body>
+
 </html>

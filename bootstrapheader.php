@@ -1,5 +1,3 @@
-
-
 <?php
 //echo out the head of the html doument
 echo'
