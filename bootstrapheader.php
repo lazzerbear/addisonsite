@@ -21,9 +21,12 @@ $css = "<link href=\"customCSS1.css\" rel=\"stylesheet\" type=\"text/css\">" ;
 $logincss = "<link href=\"signup_login.css\" rel=\"stylesheet\" type=\"text/css\">" ;
 
 //standard boot strap cdn
+/*$bootstrapcdn = '<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>';
+*/
 $bootstrapcdn = "
 
-  
+    
   
   <!--Bootstrap CDN-->
   <!-- Latest compiled and minified CSS -->
@@ -34,6 +37,7 @@ $bootstrapcdn = "
   <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>
 
 ";
+
 
 $content_links = "    <!--content links up -->  
     <div class=\"text-center\" id=\"contpage\">
