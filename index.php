@@ -1,4 +1,5 @@
 <?php 
+session_start();
 include_once("analyticstracking.php");
 require 'bootstrapheader.php'; 
 	echo $bootstrapcdn; 				
@@ -227,7 +228,7 @@ require 'bootstrapheader.php';
         stroke: #000000;
         stroke-miterlimit: 10;
     }
-    /*---------------ANIMATION------------*/
+    /*---------------ANIMATION FOR BUTTER BOT------------*/
     
     @keyframes tater {
         100% {
@@ -257,30 +258,42 @@ require 'bootstrapheader.php';
 </head>
 
 <body>
+  
 
-    <?php require 'top_navigation_bar.php'; ?>
+        <?php require 'top_navigation_bar.php'; ?>
 
 
-    <div class="container white-background">
-        <div class="container">
-            <audio controls loop class="pull-right">
+        <div class="container white-background">
+            <div class="container">
+                <audio controls loop class="pull-right">
                     <source src="sounds/coffeeOnTheBrainTrack.mp3" type="audio/mpeg">
                     No music for you because your browser is garbage. Have you considered trying google chrome or firefox?
                 </audio>
+            </div>
+            <div>
+            <div class="well">
+                <div class="fancyerpink text-center"> Addison made this website.</div>
+                
+                  <p class="fancypink text-center">  <?php if($_SESSION['email'] === "addy@gmail.com"){
+        echo $_SESSION['message'].'<button onclick="movieFunction()" class="btn-success">MOVIES</button>';
+    }else{
+    echo "Butter bot!";
+} ?></p>
+                 
+    
+            </div>
+            <div class="butter">
+                <img class="img-responsive center-block" src="img/ButterBot.svg" alt="Butter Bot" width="1050" height="550">
+            </div>
         </div>
-        <div class="well">
-            <div class="fancyerpink text-center"> Addison made this website.</div>
-            <p class="fancypink text-center">Butter Bot!?</p>
-        </div>
-        <div class="butter">
-            <img class="img-responsive center-block" src="img/ButterBot.svg" alt="Butter Bot" width="1050" height="550">
-        </div>
-    </div>
-
-    <script>
-        document.getElementById("on-home").style.backgroundColor = "#F0F8FF";
-
-    </script>
+   </div>
+    <!-- SETS ACTIVE ON HOME BUTTON {I THINK???!!! can't really remember}-->
+        <script>
+            document.getElementById("on-home").style.backgroundColor = "#F0F8FF";
+            function movieFunction(){
+                window.location = "http://addisonsmartin.site/movies.php"
+            }
+        </script>
 </body>
 
 </html>

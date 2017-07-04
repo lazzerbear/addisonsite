@@ -1,6 +1,6 @@
 <?php
 session_start();
-require "dbConfig.php";
+require_once "dbConfig.php";
 $email = $pwd = "";
 
 
